@@ -80,10 +80,10 @@
 
         FUNCTION {
             bindings = <
-&kp N1           &kp N2       &kp N3        &kp N4        &kp N5                                             &kp N6          &kp N7        &kp N8                &kp N9                 &kp N0
-&kp EXCLAMATION  &kp AT_SIGN  &kp HASH      &kp DOLLAR    &kp PERCENT   &to 0             &kp INT_MUHENKAN   &kp AMPERSAND   &kp SQT       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp ENTER
-&kp PLUS         &kp MINUS    &kp ASTERISK  &kp SLASH     &kp EQUAL     &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp TILDE       &kp QUESTION  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp QUESTION
-&bt BT_PRV       &bt BT_NXT   &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &none             &kp MINUS          &bt BT_CLR_ALL                                                             &kp LEFT_SHIFT
+&none   &kp N7  &kp N8  &kp N9  &kp PLUS                      &kp HOME   &kp PAGE_UP     &kp UP_ARROW      &kp PAGE_DOWN      &bt BT_SEL 0
+&kp N0  &kp N4  &kp N5  &kp N6  &kp ASTERISK  &none   &none   &kp END    &kp LEFT_ARROW  &kp DOWN_ARROW    &kp RIGHT_ARROW    &bt BT_SEL 1
+&none   &kp N1  &kp N2  &kp N3  &kp EQUAL     &none   &none   &kp ENTER  &kp BACKSPACE   &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &bt BT_SEL 2
+&trans  &trans  &trans  &trans  &trans        &trans  &trans  &trans                                                          &bt BT_SEL 3
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
